@@ -1,0 +1,12 @@
+#черенкова Е.Ю.
+#12.04.2017
+
+print("Marie-Henri Beyle")
+print("He is hiding under the name of Stendhal")
+print("Area of interest: literature")
+born=1783
+dead=1842
+print("He was born in",born,",in Paris.He died at",dead)
+age=dead-born
+print(age)
+input("Press Enter")
