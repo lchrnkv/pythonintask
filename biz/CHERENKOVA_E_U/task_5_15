@@ -1,0 +1,13 @@
+#Черенкова Е.Ю.
+#12.04.2017
+
+import random
+city=["Pereslavl","Rostov" ,"Yaroslavl" ,"Kostroma ",
+      "Ivanovo" , "Suzdal" ,"Vladimir,Alexandrov ",
+      "hierarchy" , "Gorokhovets", "Gus-Crystal", 
+      "Dmitrov", "Kalyazin", "Kideksha", "Moscow", 
+      "Moore", "Myshkin", "Palekh" , "Ples", "Rybinsk",
+      "Tutaev", "Uglich", "Yuriev-Polsky", "Shuya"]
+i=random.randint(0,25)
+print(city[i])
+input("Press Enter")
