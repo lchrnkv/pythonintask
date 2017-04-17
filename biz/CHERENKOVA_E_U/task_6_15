@@ -1,0 +1,15 @@
+#Черенкова Е.Ю.
+#15.04.2017
+import random
+city=["Pereslavl","Rostov" ,"Yaroslavl" ,"Kostroma ",
+      "Ivanovo" , "Suzdal" ,"Vladimir","Alexandrov ",
+      "hierarchy" , "Gorokhovets", "Gus-Crystal", 
+      "Dmitrov"]
+i=random.randint(0,11)
+print("Let's play a game. Guess the city, located in the golden ring")
+city_selected=input("Select a city: ")
+if city[i]==city_selected:
+    print("You win!!!")
+else:
+    print("You lose.I put forth:",city[i],".Try again")
+input("Press Enter")
