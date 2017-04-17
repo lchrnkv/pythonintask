@@ -1,0 +1,18 @@
+#Черенкова Е.Ю.
+#15.04.2017
+
+import random
+
+while True:
+    magic_word = random.choice(('silver', 'cloud','love','dog','cat','math'))
+    print('Length = %i' % len(magic_word))
+    for i in range(5):
+        letter = input('Enter letter: ')
+        if not letter:
+            break
+        print('YES' if letter[0] in magic_word else 'NO')
+    my_word = input('Enter word: ')
+    if my_word == 'exit':
+        break
+    print('You guessed word!!!' if my_word == magic_word else 'Nope...')
+    input("Press Enter")
